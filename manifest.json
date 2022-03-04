@@ -1,0 +1,6 @@
+{
+  "manifest_version": 3,
+  "name": "OpenSea Profit Calculator",
+  "description": "Calculates profit on OpenSea NFT listings in real time",
+  "version": "0.1"
+}
