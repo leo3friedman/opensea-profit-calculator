@@ -5,7 +5,7 @@
   "version": "0.1",
   "content_scripts": [
     {
-      "matches": ["https://opensea.io/*"],
+      "matches": ["https://opensea.io/assets/0x1acbd5ce03bdd2a898f4acf91a39cc9c0807c39c/35/sell"],
       "run_at": "document_start",
       "js": ["main.js"]
     }
