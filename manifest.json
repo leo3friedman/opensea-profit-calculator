@@ -8,6 +8,14 @@
       "matches": ["https://opensea.io/assets/0x1acbd5ce03bdd2a898f4acf91a39cc9c0807c39c/35/sell"],
       "run_at": "document_start",
       "js": ["main.js"]
+    },
+    {
+      "matches": ["https://opensea.io/ethane","https://opensea.io/FreoLeo","https://opensea.io/account"],
+      "run_at": "document_start",
+      "js": ["account.js"]
     }
+  ],
+  "permissions": [
+    "storage"
   ]
 }
